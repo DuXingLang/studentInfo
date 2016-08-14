@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+.row{
+	width:500px;
+	height:80px;
+	margin:0 auto;
+	padding-top:20px;
+	overflow:hidden;
+}
+.select{
+	width:80%;
+}
+.stuId,.name{
+	display:inline-block;
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+.spandiv{
+	display:inline-block;
+	float:left;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+}
+.selectdiv{
+	width:60%;
+	float:left;
+}
+.newbtndiv{
+	display:inline-block;
+	float:left;
+	margin-left:20px;
+}
+.selectCourseForm{
+	position:relative;
+	width:100%;
+	margin:50px auto;
+}

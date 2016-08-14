@@ -1,0 +1,89 @@
+*{
+	font-family: "Microsoft YaHei";
+	margin:0;
+	padding:0;
+}
+body{
+	background:#89CFF0;
+}
+.header h2{
+	width:100%;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	margin:0px auto;
+	font-size:30px;
+	background-color: #5F9EA0;
+	color:#FFF;
+}
+.login-main{
+	width:300px;
+	margin:5% auto;
+	padding:40px 40px 0px 40px;
+	background-color:#B4D8FA;
+	border-radius:10px;
+	
+}
+.login-main .title{
+	width:100%;
+	text-align:center;
+}
+.login-main form{
+	width:100%;
+	margin:0 auto;
+	padding:15px 0px;
+}
+.inputer{
+	height:40px;
+}
+.username,.password{
+	width:200px;
+	height:30px;
+	padding-left:20px;
+	border-radius:5px;
+	border:0;
+}
+.imgdiv{
+	width:100%;
+	height:30px;
+	overflow:hidden;
+}
+.imgcode{
+	width:120px;
+	height:30px;
+	padding-left:20px;
+	border-radius:5px;
+	border:0;
+	float:left;
+}
+#imgcode{
+	float:right;
+	cursor:pointer;
+}
+#sure{
+	width:150px;
+	margin:20px auto; 
+}
+#sure input{
+	background-color:#FFF;
+	width:60px;
+	height:35px;
+	border:0px;
+	cursor:pointer;
+	font-size:16px;
+	border-radius:5px;
+}
+#sure input[type=submit]:hover{
+	background-color:#03BC0F;
+	color:#FFF;
+}
+#sure input[type=reset]:hover{
+	background-color:#E0D10F;
+	color:#FFF;
+}
+.footer .footerdiv{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+}

@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+.left{
+	position:relative;
+    height: 520px;
+    margin-top:50px;
+}
+.left ul li span{
+    display:block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background-color:#FFF;
+}
+.main{
+	left:0px;
+	padding:0 10px;
+}
+.row{
+	width:720px;
+	height:80px;
+	margin:0 auto;
+	padding-top:20px;
+	overflow:hidden;
+}
+.courseId,.courseSta,.courseTerm{
+	display:inline-block;
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+.btndiv{
+	display:inline-block;
+	float:left;
+}
+.updateForm{
+	width:70%;
+}
